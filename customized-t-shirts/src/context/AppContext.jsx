@@ -20,7 +20,7 @@ export const AppProvider = ({ children }) => {
         signOutTimerRef.current = setTimeout(() => {
             alert('Session expired. You have been signed out.');
             signOut();
-        }, 600000);
+        }, 1800000);
     };
 
     const signIn = (userData) => {
